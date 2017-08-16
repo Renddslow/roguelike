@@ -10,6 +10,8 @@ class Tiles:
 		self.matrices = Matrices()
 		self.floor = self.create_tile_matrix(self.matrices.floor)
 		self.wall = self.create_tile_matrix(self.matrices.wall)
+		self.black = self.create_tile_matrix(self.matrices.black)
+		self.item = self.create_tile_matrix(self.matrices.item)
 
 	
 	def create_tile_matrix(self, matrix):
