@@ -9,6 +9,7 @@ class Tiles:
 		self.colors = Colors()
 		self.matrices = Matrices()
 		self.floor = self.create_tile_matrix(self.matrices.floor)
+		self.wall = self.create_tile_matrix(self.matrices.wall)
 
 	
 	def create_tile_matrix(self, matrix):
@@ -22,7 +23,7 @@ class Tiles:
 				elif matrix[y][x] == 2:
 					tile[x, y] = self.colors.light
 				else:
-					matrix[x, y] = self.colors.white
+					tile[x, y] = self.colors.white
 		return tile
 
 
