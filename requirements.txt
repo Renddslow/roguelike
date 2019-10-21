@@ -31,4 +31,4 @@ six==1.10.0
 twilio==6.5.1
 urllib3==1.22
 uWSGI==2.0.15
-Werkzeug==0.12.2
+Werkzeug==0.15.3
