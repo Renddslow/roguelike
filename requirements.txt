@@ -16,7 +16,7 @@ MarkupSafe==1.0
 numpy==1.13.1
 olefile==0.44
 peewee==2.10.1
-Pillow==4.2.1
+Pillow==8.1.1
 pycparser==2.18
 PyJWT==1.5.2
 pymongo==3.5.0
