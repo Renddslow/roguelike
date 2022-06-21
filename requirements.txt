@@ -13,7 +13,7 @@ ipaddress==1.0.18
 itsdangerous==0.24
 Jinja2==2.9.6
 MarkupSafe==1.0
-numpy==1.13.1
+numpy==1.22.0
 olefile==0.44
 peewee==2.10.1
 Pillow==4.2.1
